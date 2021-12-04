@@ -1,0 +1,109 @@
+
+html {
+    position: absolute;
+    max-width: 8000px;
+    max-height: 408px;
+
+}
+
+body {
+    
+    font-family: 'Roboto', sans-serif;
+    max-width: 8000px;
+    max-height: 408px;
+}
+
+
+
+
+.container-widht {
+
+
+    max-width: 8000px;
+    max-height: 408px;
+    white-space: nowrap;
+
+    
+   
+}
+
+.intro {
+
+    padding: 50px 50px;
+    
+}
+
+.intro__title {
+    margin-bottom: 38px;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 66px;
+    line-height: 48px;
+    /* identical to box height, or 133% */
+    
+    
+    color: #111B47;
+    
+}
+.intro__subtitle {
+    margin-bottom: 68px;
+    font-style: normal;
+font-weight: normal;
+font-size: 26px;
+line-height: 26px;
+/* identical to box height, or 162% */
+
+
+color: #939EA4;
+
+}
+.intro__text {
+    margin-bottom: 10px;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 36px;
+    line-height: 26px;
+    /* identical to box height, or 162% */
+    
+    
+    color: #5D6970;
+    
+}
+.intro__minus {
+}
+.intro__minus-text {
+    margin-bottom: 31px;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 21px;
+    line-height: 26px;
+    /* identical to box height, or 162% */
+    
+    
+    color: #5D6970;
+}
+
+
+
+.intro__burger {
+    
+}
+.intro__burger-inner {
+    display: block;
+    width: 1000px;
+    height: 2px;
+    font-size: 0;
+    background: #E9EBEC;
+}
+
+.intro__burger-inner::before,
+.intro__burger-inner::after {
+
+    content: "";
+
+}
+
+.intro__burger-inner::after {
+    content: "a";
+}
+
